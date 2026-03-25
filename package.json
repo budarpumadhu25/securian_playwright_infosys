@@ -1,0 +1,19 @@
+{
+  "name": "infosys-madhusudhan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/retirement.spec.js ",
+    "test:headed": "npx playwright test tests/retirement.spec.js --headed",
+    "test:debug": "npx playwright test tests/retirement.spec.js --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
