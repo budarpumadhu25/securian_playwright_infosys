@@ -1,0 +1,102 @@
+# 📊 Retirement Calculator Automation (Playwright)
+
+This project automates the testing of the Securian Retirement Calculator using Playwright with JavaScript and Page Object Model (POM) design.
+
+---
+
+## 🚀 Project Overview
+
+- Automates retirement calculator workflows
+- Uses Playwright Test Runner
+- Implements Page Object Model (POM)
+- Covers form filling, toggles, and submission flow
+
+---
+
+## 📁 Project Structure
+.
+├── pageObject/
+│ └── pension.orbital.js
+│
+├── tests/
+│ ├── example.spec.js
+│ └── retirement.spec.js
+│
+├── test-results/
+├── playwright-report/
+│
+├── fixtures.js
+├── testData.js
+├── playwright.config.js
+├── package.json
+└── README.md
+
+---
+
+## 🧰 Tech Stack
+
+- Playwright
+- JavaScript (CommonJS)
+- Node.js
+
+---
+
+## ⚙️ Setup
+
+### Install dependencies
+
+---
+
+## 🧪 Test Scenarios
+
+- Fill required fields
+- Toggle social security options
+- Submit retirement form
+- Update and verify values
+
+---
+
+## 🧱 Page Object Model
+
+Class: `PensionOrbital`
+
+Methods:
+- `navigate()` → Open application
+- `fillCore()` → Fill form data
+- `updateFillCore()` → Update values
+- `toggleSocialTrue/False()` → Handle toggles
+- `submit()` → Submit form
+- `isResultVisible()` → Verify results
+
+---
+
+## 🔄 Test Data
+
+Defined in `testData.js`:
+
+---
+
+## 🧩 Fixtures
+
+Custom fixture:
+- `retirePage` → Initializes page and navigates
+
+---
+
+## 📊 Reports
+
+View report:
+
+---
+
+## ⚠️ Note
+
+Incorrect assertion example:
+```js
+await expect(retirePage.toggleSocialTrue).toBeTruthy();
+
+---
+
+If you want, Madhu, I can also:
+- :contentReference[oaicite:0]{index=0}
+- Or :contentReference[oaicite:1]{index=1}
